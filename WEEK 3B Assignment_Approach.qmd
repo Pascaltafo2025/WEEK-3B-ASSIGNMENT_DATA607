@@ -1,0 +1,18 @@
+---
+title: "Time Series Analysis of Soccer Club Stock Prices"
+author: "PASCAL HERMANN KOUOGANG TAFO"
+format: html
+editor: visual
+---
+
+# INTRODUCTION
+
+In this assignment, i will conduct a comparative analysis of the daily stock prices for 3 prominent European soccer clubs. My focus will be on comparing performance through year-to-date and short-term moving averages by integrating techniques including data acquisition, database querying, and statistical analysis using PostgreSQL and R.Then, we will apply window functions and tidyverse tools to help us compute the year-to-date average and the six-day moving averages for each soccer club.
+
+# APPROACH
+
+To tackle down this assignment, we will collect historical end-of-day stock prices from an online financial data source for 3 prominent European soccer clubs,store and organize the data in a structured PostgreSQL database .
+
+Next we will try to visualize the fluctuation of stock prices throughout the years for each team.
+
+Finally, we will use either PostgresSQL or dplyr window functions to compute year-to-date, six-day moving averages and potentially Visualize trends with line plots and moving averages. While solving this task, we should be cautious about the consistency the historical data for some periods and the possibilities of missing stock prices.
